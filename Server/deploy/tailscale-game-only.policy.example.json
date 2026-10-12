@@ -1,0 +1,9 @@
+{
+  "grants": [
+    {
+      "src": ["autogroup:member"],
+      "dst": ["100.110.213.25"],
+      "ip": ["tcp:443"]
+    }
+  ]
+}

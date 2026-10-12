@@ -1,0 +1,24 @@
+[Unit]
+Description=RPG account and cloud-save API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=rpg-api
+Group=rpg-api
+WorkingDirectory=/opt/rpg-api
+Environment=NODE_ENV=production
+Environment=RPG_TRUST_PROXY=1
+EnvironmentFile=/etc/rpg-api.env
+ExecStart=/usr/bin/node /opt/rpg-api/server.mjs
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

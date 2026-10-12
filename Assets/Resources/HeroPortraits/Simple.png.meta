@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: 774be99a00a94e61b6e9c40840f3be16
+TextureImporter:
+  serializedVersion: 13
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: SimpleHead
+  mipmaps:
+    enableMipMap: 0
+  textureSettings:
+    filterMode: 0
+  nPOTScale: 0
+  textureType: 8
+  spriteMode: 2
+  spritePixelsToUnits: 64
+  alphaIsTransparency: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SimpleHead
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 88
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      spriteID: 774be99a00a94e61b6e9c40840f3be16
+      internalID: 21300000
+    nameFileIdTable:
+      SimpleHead: 21300000

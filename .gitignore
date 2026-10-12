@@ -1,0 +1,23 @@
+# Unity 缓存、编辑器数据和构建产物
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/Build/
+/Builds/
+/.vs/
+/*.csproj
+/*.sln
+/*.slnx
+*.log
+
+# 后端依赖与本机私密配置
+/Server/node_modules/
+/Server/.local/
+.env
+.env.*
+
+# 测试编译产物
+/Tools/**/bin/
+/Tools/**/obj/
